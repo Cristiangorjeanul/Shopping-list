@@ -1,0 +1,90 @@
+body {
+  background: blue;
+  font-family: "arial", "times new roman";
+  padding: 30px;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.form {
+  padding: 10px;
+  background: yellow;
+  margin-bottom: 15px;
+  border-radius: 3px;
+}
+
+.form-row {
+  margin-bottom: 10px;
+}
+
+.form input {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.form-label {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 2em;
+  font-weight: 700;
+  color: blue;
+}
+
+.form-control {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.form-button {
+  background: blue;
+  width: 100%;
+  color: white;
+  font-size: 1em;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 15px 40px;
+  border-radius: 5px;
+  transition: 0.3s all;
+}
+
+.form-button:hover {
+  background: rgba(6, 6, 245, 0.801);
+}
+
+.products-list {
+  padding: 0;
+  list-style: none;
+}
+
+.products-list li {
+  padding: 3px 10px 3px 17px;
+  border-radius: 3px;
+  background: yellow;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.products-list .btn-delete {
+  padding: 5px 10px;
+  background: red;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 1em;
+  font-weight: 700;
+  color: white;
+  border-radius: 5px;
+}
+
+.products-list .btn-delete:hover {
+  background: rgb(206, 3, 3);
+  color: white;
+}
